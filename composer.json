@@ -1,0 +1,26 @@
+{
+    "name": "amanatjuwel/db-dump",
+    "description": "Dump the contents of a database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amanat Juwel",
+            "email": "amanatjuwel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Amanatjuwel\\DbDump\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amanatjuwel\\DbDump\\DbDumpServiceProvider"
+            ]
+        }
+    }
+}
