@@ -1,6 +1,6 @@
 ## Dump the contents of a database
 
-### This repo contains an easy to use class to dump a database using PHP. Currently MySQL is supported. Behind the scenes mysqldump
+This repo contains an easy to use to dump a database using PHP. Currently MySQL is supported. 
 
 ## Requirements
 
@@ -22,7 +22,7 @@ After updating composer, add the ServiceProvider to the providers array in confi
 
     php artisan vendor:publish --provider="Amanatjuwel\DbDump\DbDumpServiceProvider"
 
-This command will publish file and folder in "resources/views/" folder named "vendor/db-dump/index.blade.php" with basic bootstrap css and fontawsome css.
+This command will publish a config file in 'congig/db-dump.php' and views in "resources/views/" folder named "vendor/db-dump/index.blade.php" with basic bootstrap css and fontawsome css.
 
 Config your database in .env
 
@@ -44,9 +44,9 @@ for localhost
 
 	from 'config/db-dump.php' set "mysqldump_path" = "PATH_TO_MYSQLDUMP"
 
-for server (.env)
+for server 
 
-	APP_ENV=production
+	from .env set APP_ENV=production
 
 ### Endpoints
 
