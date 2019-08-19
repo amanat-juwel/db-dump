@@ -22,7 +22,7 @@ After updating composer, add the ServiceProvider to the providers array in confi
 
     php artisan vendor:publish --provider="Amanatjuwel\DbDump\DbDumpServiceProvider"
 
-This command will publish a config file in 'congig/db-dump.php' and views in "resources/views/" folder named "vendor/db-dump/index.blade.php" with basic bootstrap css and fontawsome css.
+This command will publish a config file in 'config/db-dump.php' and views in "resources/views/" folder named "vendor/db-dump/index.blade.php" with basic bootstrap css and fontawsome css.
 
 Config your database in .env
 
