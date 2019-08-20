@@ -16,7 +16,7 @@ You can install the package via composer:
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
-    Amanatjuwel\Contact\DbDumpServiceProvider::class,
+    Amanatjuwel\DbDump\DbDumpServiceProvider::class,
 
 ### Configuration
 
